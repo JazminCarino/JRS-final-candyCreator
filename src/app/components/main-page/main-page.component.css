@@ -1,0 +1,66 @@
+body {
+   background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
+
+.welcome{
+   display: flex;
+   height: 250px;
+   width: 100%;
+   
+      background: linear-gradient(158deg, #f6629e, #faf144, #d483fc, #83d8fc, #baf0a8);
+      background-size: 1000% 1000%;
+  
+      -webkit-animation: AnimationName 27s ease infinite;
+      -moz-animation: AnimationName 27s ease infinite;
+      animation: AnimationName 27s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:49% 0%}
+      50%{background-position:52% 100%}
+      100%{background-position:49% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:49% 0%}
+      50%{background-position:52% 100%}
+      100%{background-position:49% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:49% 0%}
+      50%{background-position:52% 100%}
+      100%{background-position:49% 0%}
+  
+}
+
+img{
+   height:100%;
+}
+
+.splash-blurb{
+   padding: 3em;
+   font-family: var(--mega);
+   justify-content: center;
+}
+
+.blurb-numbers{
+   font-family: var(--quicksand);
+    font-size: 4em;
+    background-image: linear-gradient(
+      25deg,
+      #b0f991,
+      #92d4fa,
+      #fc5fb0,
+      rgb(248, 179, 50)
+    );
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+

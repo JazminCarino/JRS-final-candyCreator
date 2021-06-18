@@ -1,0 +1,60 @@
+
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 30%;
+  font-family:var(--mega);
+    font-size: .5em;
+    font-weight: bold;
+    border: 3px solid var(--purple);;
+    color: var(--purple);
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+
+.buy-button:hover{
+    background-color:rgb(239, 160, 244);
+    transition: 300ms ease-in-out;
+}
+
+.chocolate {
+  border: var(--chocolate) solid 10px;
+  border-radius: 5px;
+  background: radial-gradient(#ffffff, var(--green));
+}
+
+.gummy {
+ border: var(--purple) solid 10px;
+  border-radius: 5px;
+  background: radial-gradient(#ffffff, var(--green));
+  
+}
+
+.card-container{
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    height: 250px;
+}
+
+.description{
+font-family: var(--quicksand);
+display: flex;
+align-items:flex-start;
+width: 300px;
+height: 100px;   
+}
+
+.price{
+    font-weight: bold;
+    margin: 1em;
+}
+
+ 

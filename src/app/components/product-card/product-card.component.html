@@ -1,0 +1,17 @@
+<div [ngClass]="{ chocolate: product.catId == 1, gummy: product.catId == 2 }">
+  <div class="card-container">
+    <span
+      ><h3>{{ product.name | uppercase }}</h3></span
+    >
+  
+
+  <div class="description">
+    <p>{{ product.description }}</p>
+  </div>
+
+  <div class="price">{{ product.price | currency }}</div>
+
+  <div class="buy-button" (click)="addToCart()">
+    <p>Add to Cart</p>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+
+
+
+<div class="container">
+    
+<form #itemForm="ngForm" (ngSubmit)="onSubmit(itemForm)">
+    <p>sign up and </p>
+    <h2>Open a Tab</h2>
+    <div class="con">
+    
+    <input class='input-wrapper' type="text" placeholder="Email" required name="email" [(ngModel)]="user.email">
+    <input class='input-wrapper' type="text" placeholder="First Name" required name="firstName" [(ngModel)]="user.firstName">
+    <input class='input-wrapper' type="text" placeholder="Last Name" required name="lastName" [(ngModel)]="user.lastName">
+    <input class='input-wrapper' type="password" placeholder="Password" required  name="password" [(ngModel)]="user.password">
+    <input class='input-wrapper' type="password" placeholder="Confirm Password" required name="confirmedPassword" [(ngModel)]="confirmedPassword">
+    <button class="submit" type="submit" [disabled]="!itemForm.valid">Submit</button>
+</div>
+<br>
+<div class="account">
+    <p>Already have an Account?</p>
+     </div>
+     <div class="one" >
+    <button type="button" (click)="toggleForm()">
+      Sign In
+    </button>
+  </div>
+    </form>
+</div>

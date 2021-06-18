@@ -1,0 +1,122 @@
+
+
+input{
+    border: none;
+}
+
+.container{
+    
+    padding: 2em;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    
+   
+}
+
+form {
+    width: 450px;
+    min-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin: 1rem;
+    box-shadow: 0 9px 50px hsla(20, 87%, 15%, 0.31);
+    padding: 2em;
+    background-image: linear-gradient(-225deg, var(--green) 50%, var(--purple) 50%);
+}
+
+form .con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2 {
+  font-family: var(--tokyo);
+  font-size: 4em;
+  background-image: linear-gradient(
+    25deg,
+    #b0f991,
+    #92d4fa,
+    #fc5fb0,
+    rgb(248, 179, 50)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin:0;
+  margin-bottom: .25em;
+  text-align: center;
+
+
+}
+
+p {
+text-align: center;
+margin-top: .5em;
+font-family: var(--mega);
+font-size: 1.15em;
+font-weight: bold;
+color: var(--chocolate) ;
+text-shadow: 2px 2px rgb(242, 200, 168);
+
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border-radius: 8px;
+    background-color: white;
+    width: 75%;
+    margin-bottom: .5em;
+    font-size: 12pt;
+    padding: .5em;
+    font-family: var(--terra);
+    
+
+}
+
+button{
+    font-family: var(--mega);
+   margin-top: 1em;
+    width: 170px;
+    height: 40px;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid var(--chocolate);
+    background: #fff;
+    color: var(--chocolate);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .35s;
+  }
+  
+  button:disabled{
+      background-color: lightgray;
+      color:rgb(226, 184, 247);
+      cursor: none;
+      
+  }
+
+  .account p{
+    color:rgb(242, 200, 168);
+    text-shadow: 2px 2px var(--chocolate);
+    
+      
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+}
+ 
+
+

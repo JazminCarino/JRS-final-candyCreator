@@ -1,0 +1,33 @@
+<div class="categories">
+  <div class="chocolate" (click)="pickCategory(1)" *ngIf="myCandy.catId != 2">
+    Chocolate
+  </div>
+  <div class="gummy" (click)="pickCategory(2)" *ngIf="myCandy.catId != 1">
+    Gummy
+  </div>
+</div>
+
+<ng-container class="name-container" *ngFor="let map of optionMap">
+  <ng-container *ngIf="map.catId == myCandy.catId">
+    <h1>{{ map.name }}</h1>
+    <div class="option-wrapper" *ngFor="let option of map.values">
+      <input
+        type="checkbox"
+        [value]="option"
+        [name]="map.name"
+        (change)="checkboxChanged(map.name, option)"
+      />
+      {{ option }}
+    </div>
+  </ng-container>
+</ng-container>
+
+<button
+  *ngIf="myCandy.catId"
+  [disabled]="!myCandy['flavor'] || !myCandy['add in']"
+>
+  submit
+</button>
+
+<button *ngIf="myCandy.catId" (click)="goBack()">back</button>
+<button *ngIf="myCandy.catId" (click)="goNext()">next</button>

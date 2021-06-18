@@ -1,0 +1,125 @@
+
+
+h3 {
+  font-family: var(--tokyo);
+  font-size: 6em;
+  background-image: linear-gradient(
+    2deg,
+    #b0f991,
+    #92d4fa,
+    #fc5fb0,
+    rgb(248, 179, 50)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.cart-container {
+  padding: 1em;
+  font-family: var(--tera);
+  flex-direction: column;
+  border: var(--chocolate) solid 4px;
+  margin: 4em;
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 9px 50px hsla(20, 87%, 15%, 0.31);
+  background: radial-gradient(white, var(--green));
+  
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: var(--tokyo);
+  font-size: 6em;
+  background-image: linear-gradient(
+    2deg,
+    #b0f991,
+    #92d4fa,
+    #fc5fb0,
+    rgb(248, 179, 50)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.cart-item {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.checkout-p{
+margin-top: 1em;
+font-family: var(--mega);
+font-size: 1.15em;
+font-weight: bold;
+color: var(--chocolate);
+text-shadow: 2px 2px rgb(242, 200, 168) ;
+text-align: center;
+margin-top: 2em;
+}
+
+.price{
+  
+border: black solid 2px;
+display: flex;
+align-content: flex-start;
+}
+
+button{
+    font-family:var(--mega);
+    width: 3em;
+    height: 40px;
+    line-height: 1;
+    font-size: 10pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid var(--chocolate);
+    background: #fff;
+    color: var(--chocolate);
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden; transition: all .35s;
+   
+  }
+
+  svg{
+    width: 1em;
+    height:1em;
+  }
+
+  .one{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  

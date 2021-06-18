@@ -1,0 +1,17 @@
+<button (click)="logout()">Logout</button>
+
+<!-- table -->
+<table>
+    <tr>
+        <th>order number</th>
+        <th>order date</th>
+        <th>total price</th>
+        <th>items</th>
+    </tr>
+    <tr *ngFor="let order of orders">
+        <td>{{order.id}}</td>
+        <td>{{order.orderDate | date}}</td>
+        <td>{{order.totalPrice}}</td>
+    </tr>
+    
+</table>

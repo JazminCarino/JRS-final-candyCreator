@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Lexend+Tera&family=Lexend+Zetta&family=Quicksand&family=Zen+Tokyo+Zoo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&family=Barlow&family=Cookie&family=Fira+Sans&display=swap');
+
+:root {
+--mega: 'Lexend Mega';
+--tera: 'Lexend Tera';
+--zetta: 'Lexend Zetta';
+--quicksand: 'Quicksand';
+--tokyo: 'Zen Tokyo Zoo';
+--cookie: 'Cookie';
+
+--purple:rgb(177, 42, 184);
+--green: rgb(227, 245, 232);
+--chocolate: rgb(97, 49, 7);
+}
+
+body{
+    margin: 0;    
+    background-color: rgb(252, 248, 238);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

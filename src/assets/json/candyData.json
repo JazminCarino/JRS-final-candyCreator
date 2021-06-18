@@ -1,0 +1,13 @@
+{
+    "candy": [
+        {
+            "id": 1,
+            "name": "candy 1",
+            "flavor1": 1,
+            "flavor2": 2,
+            "addIn1": 3,
+            "addIn2": 9,
+            "addIn3": 5
+        }
+    ]
+}

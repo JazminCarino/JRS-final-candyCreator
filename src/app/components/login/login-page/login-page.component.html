@@ -1,0 +1,7 @@
+
+    <div class="form">
+        <login *ngIf="showLoginForm"
+                    (toggleForms)="toggleLoginCreateUser()"></login>
+        <create-user *ngIf="!showLoginForm"
+                          (toggleForms)="toggleLoginCreateUser()"></create-user>
+    </div>
